@@ -21,7 +21,7 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -29,7 +29,7 @@ a {
 
 .header-nav-color {
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
@@ -69,12 +69,12 @@ a {
 }
 
 .header-contacts-link:hover,
-.header-menu-link:focus{
+.header-contacts-link:focus{
     color: #404bbf;
 }
 
                         /*-------------------------------- */
-                        /*-------------- HEADER------------------ */
+                        /*-------------- SOLUTION------------------ */
 .solution {
     background: #2e2f42;
 }
@@ -97,7 +97,8 @@ a {
     background: #4d5ae5;
     cursor: pointer;
 }
-.solution-btn:hover{
+.solution-btn:hover,
+.solution-btn:focus{
     background-color: #404BBF;
 }
 
@@ -213,7 +214,7 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -221,7 +222,7 @@ a {
 
 .footer-color {
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
