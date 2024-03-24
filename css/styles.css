@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
+    background-color:#fff;
 }
 
 ul {
@@ -20,18 +21,19 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .header-nav-color {
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;}
+    color: #2e2f42;
+}
 
 .header-menu-list {}
 
@@ -46,11 +48,14 @@ a {
 }
 
 .header-menu-link:hover,
+.header-menu-link:focus,
 .header-menu-link:active {
     color: #404bbf;
 }
 
-.header-contacts {}
+.header-contacts {
+    font-style: normal;
+}
 
 .header-contacts-list {}
 
@@ -63,7 +68,8 @@ a {
     color: #434455;
 }
 
-.header-contacts-link:hover{
+.header-contacts-link:hover,
+.header-menu-link:focus{
     color: #404bbf;
 }
 
@@ -92,7 +98,7 @@ a {
     cursor: pointer;
 }
 .solution-btn:hover{
-    background: #404bbf;
+    background-color: #404BBF;
 }
 
                                 /*-------------------------------- */
@@ -134,6 +140,7 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .team-list {}
@@ -168,10 +175,11 @@ a {
 .portfolio-taitle {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .portfolio-list {}
@@ -208,17 +216,15 @@ a {
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5;
 }
 
 .footer-color {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
     font-size: 18px;
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: #f4f4fd;
 }
 
 .footer-text {
